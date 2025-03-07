@@ -11,12 +11,5 @@ const ironhard = {
 };
 
 
-const myrotation = document.querySelector("myrotation");
-let uniqueId = ironhard.type;
-let counter = 1;
-while (document.getElementById(uniqueId)) {
-  uniqueId = ironhard.type + counter;
-  counter++;
-}
-myrotation.setAttribute("id", uniqueId);
+
 
