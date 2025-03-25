@@ -11,19 +11,7 @@ head {
 }
 
 h1 {
-    font-family:"montserrat", sans-serif;
-    color: rgb(39, 39, 35);
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: normal;
-    text-align: left;
-    text-orientation: upright;
-
-}
-
-span {
-    background-color:NONE;
-    border-radius: NONE;
+    margin: 1%;
 }
 
 .highlight {
@@ -53,7 +41,7 @@ p {
     background-color: rgba(115, 43, 182, 0.89);
 }
 
-#menu { /* Essa organização do blocks e das divs estão meio estranha mas outrora eu dou improve nisso */
+#menu { /* Essa organizaÃ§Ã£o do blocks e das divs estÃ£o meio estranha mas outrora eu dou improve nisso */
     font-family: "Outfit", sans-serif;
     display: inline-block;
     padding: 10px;
@@ -64,27 +52,51 @@ p {
     text-decoration: none;
     
 }
-li a {
+
+.menucfg a {
     display: block;
-    color: rgba(89, 0, 255, 0.89);
+    color: rgba(141, 98, 221, 0.89);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: rgba(79, 0, 143, 0.89);
-    color: rgba(89, 0, 255, 0.89);
+.menucfg a:hover:not(.active) {
+    background-color: rgba(109, 16, 163, 0.89);
+    color: rgba(141, 98, 221, 0.89);
 }
 
 .active {
-    background-color: rgba(0, 219, 37, 0.89);
+    background-color: rgba(19, 214, 52, 0.89);
     text-decoration: none;
 } 
 
-img {
-    display: inline-block;
-
+.logo {
+    display: inline-flex; 
+    padding: 2px;
+    border-radius: 0%; 
 }
- /* Próximo passo é adicionar uma separação entre um menu e outro e trabalhar o alinhamento */
+
+.logo a { 
+    color: rgb(31, 28, 28);
+    text-align: center;
+    border-radius: 2%;
+    padding: 12px 12px;
+    text-decoration: none;
+}
+
+#logo-txt {
+    padding: 10% 0;
+    text-align: center;
+    text-indent: 0%;
+    font-family: "TTNormsBlack", sans-serif;
+    font-weight: bold;
+    font-size: 150%;   
+/* text-shadow: 2px 2px 4px rgba(48, 47, 47, 0.5); CRIA UM SOMBREAMENTO NO TEXTO (BEM DAORA)*/   
+}
+
+#logo-img {
+    align-content: center;
+    
+}
 
