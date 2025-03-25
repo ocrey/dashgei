@@ -7,7 +7,6 @@ head {
     color: #e6e1d3;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
 }
 
 h1 {
@@ -28,9 +27,10 @@ p.fina {
 p {
     font-family: 'Courier New', Courier, monospace;
     font-optical-sizing: auto;
-    font-weight: 90;
-    font-style: bold;
+    font-weight: bold;
+    font-style: normal;
     color: rgb(255, 252, 240);;
+    color: rgb(255, 252, 240);
 }
 
 .top {
@@ -41,12 +41,11 @@ p {
     background-color: rgba(115, 43, 182, 0.89);
 }
 
-#menu { /* Essa organizaÃ§Ã£o do blocks e das divs estÃ£o meio estranha mas outrora eu dou improve nisso */
-    font-family: "Outfit", sans-serif;
+#menu { 
+    font-family: Impact;
     display: inline-block;
     padding: 10px;
     color: rgb(41, 40, 41);
-    font-family: Impact;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -72,31 +71,40 @@ p {
 } 
 
 .logo {
-    display: inline-flex; 
-    padding: 2px;
-    border-radius: 0%; 
+
+    display: flex;
+    padding: 2px ;
+    text-align: center;
+
+    
 }
 
 .logo a { 
     color: rgb(31, 28, 28);
-    text-align: center;
-    border-radius: 2%;
-    padding: 12px 12px;
-    text-decoration: none;
+    align-content: center;   
 }
 
 #logo-txt {
-    padding: 10% 0;
+    padding: 1% 0% 1% 1%;
     text-align: center;
-    text-indent: 0%;
-    font-family: "TTNormsBlack", sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    font-size: 150%;   
+    font-size: 150%;
+    font-stretch:semi-condensed;
+    color: #252525;
+    border-left: 1px solid rgba(54, 53, 53, 0.459);
+    
+    
+    
 /* text-shadow: 2px 2px 4px rgba(48, 47, 47, 0.5); CRIA UM SOMBREAMENTO NO TEXTO (BEM DAORA)*/   
 }
 
-#logo-img {
-    align-content: center;
-    
+#logo-img-box {
+    padding: 1%    
 }
 
+.logo-img {
+    height: 70px; 
+    width: 95px; 
+    
+}
