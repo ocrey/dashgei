@@ -1,0 +1,46 @@
+{
+    "Unidades": {
+        "CISF": {
+            "id": 1,
+            "Nome": "Centro de Idosos Sagrada Familia",
+            "Endereço": "Alameda do Contorno, 3.038 - Jardim Bela Vista, Goiânia - GO, 74850-400",
+            "Google_Maps": "https://goo.gl/maps/2v1x5j7Z3kz",
+            "Location": {
+                "latitude": -16.73059,
+                "longitude": -49.22941
+            },
+            "OS": [
+                {
+                    "id": 8,
+                    "processo_SEI": "202500058000393",
+                    "servicos": "Execução de Reforma de Leitos - Quartos 08 e 09",
+                    "data_inicio": "20-01-2025",
+                    "data_conclusao": "19/02/2025",
+                    "status": "Concluída",
+                    "valor": 107804.63,
+                    "notas_fiscais": [
+                        {"numero": 677},
+                        {"numero": 697}                 
+                    ]
+                },
+                {
+                    "id": 15,
+                    "processo_SEI": "202500058000394",
+                    "servicos": "Execução de Reforma de Leitos - Quartos 15 e 16",
+                    "data_inicio": "20-01-2025",
+                    "data_conclusao": "19-02-2025",
+                    "status": "Concluída",
+                    "valor": 107804.63,                    
+                    "notas_fiscais": [
+                        {"numero": 678},
+                        {"numero": 698}                 
+                    ]    
+                }             
+             ]
+                            
+                }
+            }
+        }
+
+
+
