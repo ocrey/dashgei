@@ -1,5 +1,5 @@
 {
-    "Unidades": {
+    "Unidades":{   
         "CISF": {
             "id": 1,
             "Nome": "Centro de Idosos Sagrada Familia",
@@ -9,21 +9,22 @@
                 "latitude": -16.73059,
                 "longitude": -49.22941
             },
-            "OS": [
-                {
+            "OS" : {
                     "id": 8,
                     "processo_SEI": "202500058000393",
                     "servicos": "Execução de Reforma de Leitos - Quartos 08 e 09",
-                    "data_inicio": "20-01-2025",
-                    "data_conclusao": "19/02/2025",
+                    "data_inicio": "20/01/2025",
+                    "data_conclusao": "19-02-2025",
                     "status": "Concluída",
                     "valor": 107804.63,
-                    "notas_fiscais": [
-                        {"numero": 677},
-                        {"numero": 697}                 
-                    ]
-                },
-                {
+                    "notas_fiscais": {
+                        "1": 677,
+                        "2": 697
+                    }
+                        
+            },
+                    
+            "OS2": {
                     "id": 15,
                     "processo_SEI": "202500058000394",
                     "servicos": "Execução de Reforma de Leitos - Quartos 15 e 16",
@@ -32,15 +33,133 @@
                     "status": "Concluída",
                     "valor": 107804.63,                    
                     "notas_fiscais": [
-                        {"numero": 678},
-                        {"numero": 698}                 
-                    ]    
-                }             
-             ]
+                        678,
+                        698
+                    ]                 
+            }           
+             
                             
-                }
+                
+        },
+        "CIGO": {
+            "id": 2,
+            "Nome": "Casa do Interior",
+            "Endereço": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "Google_Maps": "xxxxxxxxxxxx",
+            "Location": {
+                "latitude": 0,
+                "longitude": 0
+            },
+            "OS" : {
+                    "id": 0,
+                    "processo_SEI": "0000000000000000000000",
+                    "servicos": "Execução de Reforma de Leitos - Quartos 08 e 09",
+                    "data_inicio": "20/01/2025",
+                    "data_conclusao": "19-02-2025",
+                    "status": "Concluída",
+                    "valor": 107804.63,
+                    "notas_fiscais": {
+                        "1": 677,
+                        "2": 697
+                    }
+                        
+            },
+                    
+            "OS2": {
+                    "id": 15,
+                    "processo_SEI": "202500058000394",
+                    "servicos": "Execução de Reforma de Leitos - Quartos 15 e 16",
+                    "data_inicio": "20-01-2025",
+                    "data_conclusao": "19-02-2025",
+                    "status": "Concluída",
+                    "valor": 107804.63,                    
+                    "notas_fiscais": [
+                        678,
+                        698
+                    ]                 
             }
+
+        },
+        "SEDE": {
+            "id": 3,
+            "Nome": "Sede Administrativa OVG",
+            "Endereço": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "Google_Maps": "xxxxxxxxxxxx",
+            "Location": {
+                "latitude": 0,
+                "longitude": 0
+            },
+            "OS" : {
+                    "id": 0,
+                    "processo_SEI": "0000000000000000000000",
+                    "servicos": "Execução de Reforma de Leitos - Quartos 08 e 09",
+                    "data_inicio": "20/01/2025",
+                    "data_conclusao": "19-02-2025",
+                    "status": "Concluída",
+                    "valor": 107804.63,
+                    "notas_fiscais": {
+                        "1": 677,
+                        "2": 697
+                    }
+                        
+            },
+                    
+            "OS2": {
+                    "id": 15,
+                    "processo_SEI": "202500058000394",
+                    "servicos": "Execução de Reforma de Leitos - Quartos 15 e 16",
+                    "data_inicio": "20-01-2025",
+                    "data_conclusao": "19-02-2025",
+                    "status": "Concluída",
+                    "valor": 107804.63,                    
+                    "notas_fiscais": {
+                        "1":678,
+                        "2":698
+                    }
+            }
+
+        },
+        "CJTF": {
+            "id": 3,
+            "Nome": "Centro da Juventude Tecendo o Futuro",
+            "Endereço": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "Google_Maps": "xxxxxxxxxxxx",
+            "Location": {
+                "latitude": 0,
+                "longitude": 0
+            },
+            "OS" : {
+                    "id": 0,
+                    "processo_SEI": "0000000000000000000000",
+                    "servicos": "Execução de Reforma de Leitos - Quartos 08 e 09",
+                    "data_inicio": "20/01/2025",
+                    "data_conclusao": "19-02-2025",
+                    "status": "Concluída",
+                    "valor": 107804.63,
+                    "notas_fiscais": {
+                        "1": 677,
+                        "2": 697
+                    }
+                        
+            },
+                    
+            "OS2": {
+                    "id": 15,
+                    "processo_SEI": "202500058000394",
+                    "servicos": "Execução de Reforma de Leitos - Quartos 15 e 16",
+                    "data_inicio": "20-01-2025",
+                    "data_conclusao": "19-02-2025",
+                    "status": "Concluída",
+                    "valor": 107804.63,                    
+                    "notas_fiscais": {
+                        "1":678,
+                        "2":698
+                    }
+            }
+
         }
+    }
+}
 
 
 
